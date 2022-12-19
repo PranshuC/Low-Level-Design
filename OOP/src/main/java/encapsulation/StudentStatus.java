@@ -1,4 +1,4 @@
-package rescaler;
+package encapsulation;
 
 public enum StudentStatus {
   ACTIVE,
