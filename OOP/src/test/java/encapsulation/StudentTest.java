@@ -1,5 +1,7 @@
 package encapsulation;
 
+import inheritance.Mentor;
+import inheritance.User;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,6 +9,17 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 public class StudentTest {
+
+  @Test(expected = IllegalArgumentException.class)
+  public void testInvalidPSP() {
+    new Student("Sherlock", "sh@uk.com", "Detective", 102.0, StudentStatus.ACTIVE);
+  }
+
+  @Test
+  public void testChildClass() {
+    User mentor = new Mentor("Sherlock", "sherlock@in", 1.0);
+    assertEquals("Parent variable not set using super in child", "Sherlock", mentor.getName());
+  }
 
   /*@Test
   public void testStudentInstance() {
@@ -16,9 +29,4 @@ public class StudentTest {
     assertEquals("If default constructor is called, status must be ACTIVE", StudentStatus.ACTIVE,
         student.getStatus());
   }*/
-
-  @Test(expected = IllegalArgumentException.class)
-  public void testInvalidPSP() {
-    new Student("Sherlock", "sh@uk.com", "Detective", 102.0, StudentStatus.ACTIVE);
-  }
 }

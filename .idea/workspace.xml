@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/inheritance/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/inheritance/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/rescaler/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/encapsulation/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/rescaler/StudentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/encapsulation/StudentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/rescaler/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/encapsulation/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/inheritance/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/inheritance/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/encapsulation/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/encapsulation/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671354799103</updated>
-      <workItem from="1671354800248" duration="10152000" />
+      <workItem from="1671354800248" duration="12294000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>
