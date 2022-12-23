@@ -9,9 +9,15 @@ public abstract class PasswordEncoder {
   // Step 2 - Add state
   private String publicKey;
   // static field, 1 value exists for all instances of this class
-  public static String KEY_PREFIX = "PUBLIC";
+  public static String KEY_PREFIX;
   // final - Constant fields - Snake case in caps
   public static final String PRIVATE_KEY_PREFIX = "PRIVATE";
+
+  // Static block example - can only call static fields or methods
+  // Always put before all other methods, coz called only once
+  static {
+    KEY_PREFIX = "PUBLIC";
+  }
 
   // Step 3 - Add methods with implementation
   public String getPublicKey() {
@@ -29,3 +35,5 @@ public abstract class PasswordEncoder {
     // System.out.println(getPublicKey());
   }
 }
+
+// @EqualsAndHashCode - Lombok : Implement equals() & hashCode() methods to use in HashMap
