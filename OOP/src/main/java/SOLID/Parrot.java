@@ -1,6 +1,6 @@
 package SOLID;
 
-public class Parrot extends Bird {
+public class Parrot extends FlyableBird {
 
   public Parrot(Double weight, String colour, Double size, String beakType) {
     super(weight, colour, size, beakType);

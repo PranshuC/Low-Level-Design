@@ -14,10 +14,13 @@ public abstract class Bird {
   private Double size;
   private String beakType;
 
-  // Step 2 - Add behaviours
-  public abstract void fly();
 }
 
-// PROBLEMS SOLVED :
-// 1. For new bird added, Bird class need not be opened : Open-Close Principle
-// 2. Only for new behaviour, modify this class : Single Responsibility Principle
+// PROBLEM :
+// Tying behaviour with hierarchy - Abstract classes (Flyable & NonFlyable)
+// For another behaviour (swim), need permutations of classes for Swim & Fly
+// SwimableFlyableBird - Swan
+// NonSwimableFlyableBird - Eagle
+// SwimableNonFlyableBird - Penguin
+// NonSwimableNonFlyableBird - Ostrich
+// But this isn't extendable for more behaviours
