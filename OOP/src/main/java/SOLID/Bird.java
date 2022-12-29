@@ -3,8 +3,6 @@ package SOLID;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.util.Objects;
-
 @Getter
 @AllArgsConstructor
 public abstract class Bird {
@@ -14,13 +12,13 @@ public abstract class Bird {
   private Double size;
   private String beakType;
 
+  // Step 2 - Add behaviours
+  public abstract void makeSound();
+
 }
 
-// PROBLEM :
-// Tying behaviour with hierarchy - Abstract classes (Flyable & NonFlyable)
-// For another behaviour (swim), need permutations of classes for Swim & Fly
-// SwimableFlyableBird - Swan
-// NonSwimableFlyableBird - Eagle
-// SwimableNonFlyableBird - Penguin
-// NonSwimableNonFlyableBird - Ostrich
-// But this isn't extendable for more behaviours
+// PROBLEM SOLVED :
+// Multiple interfaces can be implemented, hence multiple behaviours acquired separately
+// Swimable & Flyable interfaces have swim() & fly() behaviours respectively
+// But everyone extends Bird class for common attributes
+// Now, Liskov Substitution can work with Flyable interface objects

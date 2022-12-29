@@ -1,4 +1,6 @@
-package SOLID;
+package SOLID.abstractclasses;
+
+import SOLID.Bird;
 
 public abstract class FlyableBird extends Bird {
 

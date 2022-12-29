@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/FlyableBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/NonFlyableBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/SOLID/BirdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Swan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/interfaces/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/interfaces/Swimable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/FlyableBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/abstractclasses/FlyableBird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/NonFlyableBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/abstractclasses/NonFlyableBird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Penguin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Sparrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/SOLID/BirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/SOLID/BirdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +192,7 @@
       <workItem from="1671354800248" duration="14073000" />
       <workItem from="1671629725304" duration="361000" />
       <workItem from="1671630093363" duration="10019000" />
-      <workItem from="1672148703901" duration="2768000" />
+      <workItem from="1672148703901" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>

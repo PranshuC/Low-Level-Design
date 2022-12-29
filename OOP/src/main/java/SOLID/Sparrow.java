@@ -1,6 +1,8 @@
 package SOLID;
 
-public class Sparrow extends FlyableBird {
+import SOLID.interfaces.Flyable;
+
+public class Sparrow extends Bird implements Flyable {
 
   public Sparrow(Double weight, String colour, Double size, String beakType) {
     super(weight, colour, size, beakType);
@@ -9,5 +11,10 @@ public class Sparrow extends FlyableBird {
   @Override
   public void fly() {
     System.out.println("Sparrow is flying");
+  }
+
+  @Override
+  public void makeSound() {
+    System.out.println("Sparrow chirps");
   }
 }
