@@ -16,9 +16,3 @@ public abstract class Bird {
   public abstract void makeSound();
 
 }
-
-// PROBLEM SOLVED :
-// Multiple interfaces can be implemented, hence multiple behaviours acquired separately
-// Swimable & Flyable interfaces have swim() & fly() behaviours respectively
-// But everyone extends Bird class for common attributes
-// Now, Liskov Substitution can work with Flyable interface objects
