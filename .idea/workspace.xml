@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/strategies/FlappingBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/strategies/FlyingBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/strategies/GlidingBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/singleton/ConnectionPoolEI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/singleton/ConnectionPoolLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/singleton/ConnectionPoolTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/SOLID/Sparrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/SOLID/BirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/SOLID/BirdTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <recent name="$PROJECT_DIR$/OOP/src/main/java/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BirdTest">
+  <component name="RunManager" selected="JUnit.ConnectionPoolTest.testSingletonEagerInstantiation">
     <configuration name="BirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
@@ -102,6 +99,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConnectionPoolTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.singleton" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.ConnectionPoolTest" />
+      <option name="METHOD_NAME" value="testSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionPoolTest.testSingletonEagerInstantiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.singleton" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.ConnectionPoolTest" />
+      <option name="METHOD_NAME" value="testSingletonEagerInstantiation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PasswordEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
@@ -113,22 +142,6 @@
       <option name="PACKAGE_NAME" value="abstractclass" />
       <option name="MAIN_CLASS_NAME" value="abstractclass.PasswordEncoderTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordEncoderTest.testDefaultPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interfaces" />
-      <option name="MAIN_CLASS_NAME" value="interfaces.PasswordEncoderTest" />
-      <option name="METHOD_NAME" value="testDefaultPasswordEncoder" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,29 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordEncoderTest.testTwoClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="interfaces" />
-      <option name="MAIN_CLASS_NAME" value="interfaces.PasswordEncoderTest" />
-      <option name="METHOD_NAME" value="testTwoClasses" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionPoolTest.testSingletonEagerInstantiation" />
+        <item itemvalue="JUnit.ConnectionPoolTest.testSingleton" />
         <item itemvalue="JUnit.BirdTest" />
         <item itemvalue="JUnit.PasswordEncoderTest.testStatic" />
         <item itemvalue="JUnit.PasswordEncoderTest" />
-        <item itemvalue="JUnit.PasswordEncoderTest.testTwoClasses" />
-        <item itemvalue="JUnit.PasswordEncoderTest.testDefaultPasswordEncoder" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +183,8 @@
       <workItem from="1671354800248" duration="14073000" />
       <workItem from="1671629725304" duration="361000" />
       <workItem from="1671630093363" duration="10019000" />
-      <workItem from="1672148703901" duration="6203000" />
+      <workItem from="1672148703901" duration="8072000" />
+      <workItem from="1673341999495" duration="3887000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>
