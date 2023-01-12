@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/singleton/ConnectionPoolEI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/singleton/ConnectionPoolLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/singleton/ConnectionPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/builder/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/builder/DatabaseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/builder/Datastore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/builder/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/builder/DatastoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +77,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpatterns.builder" />
       <recent name="SOLID" />
       <recent name="rescaler" />
     </key>
@@ -83,80 +86,81 @@
       <recent name="$PROJECT_DIR$/OOP/src/main/java/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionPoolTest.testSingletonEagerInstantiation">
-    <configuration name="BirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatastoreTest.testBuilderWithNoType">
+    <configuration name="DatabaseTest.testHashMapConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SOLID.*" />
+          <option name="PATTERN" value="designpatterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SOLID" />
-      <option name="MAIN_CLASS_NAME" value="SOLID.BirdTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectionPoolTest.testSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.singleton" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.ConnectionPoolTest" />
-      <option name="METHOD_NAME" value="testSingleton" />
+      <option name="PACKAGE_NAME" value="designpatterns.builder" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatabaseTest" />
+      <option name="METHOD_NAME" value="testHashMapConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConnectionPoolTest.testSingletonEagerInstantiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testSetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.singleton.*" />
+          <option name="PATTERN" value="designpatterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.singleton" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.ConnectionPoolTest" />
-      <option name="METHOD_NAME" value="testSingletonEagerInstantiation" />
+      <option name="PACKAGE_NAME" value="designpatterns.builder" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatabaseTest" />
+      <option name="METHOD_NAME" value="testSetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatastoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractclass.*" />
+          <option name="PATTERN" value="designpatterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="abstractclass" />
-      <option name="MAIN_CLASS_NAME" value="abstractclass.PasswordEncoderTest" />
+      <option name="PACKAGE_NAME" value="designpatterns.builder" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatastoreTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordEncoderTest.testStatic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatastoreTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractclass.*" />
+          <option name="PATTERN" value="designpatterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="abstractclass" />
-      <option name="MAIN_CLASS_NAME" value="abstractclass.PasswordEncoderTest" />
-      <option name="METHOD_NAME" value="testStatic" />
+      <option name="PACKAGE_NAME" value="designpatterns.builder" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatastoreTest" />
+      <option name="METHOD_NAME" value="testBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatastoreTest.testBuilderWithNoType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.builder" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatastoreTest" />
+      <option name="METHOD_NAME" value="testBuilderWithNoType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConnectionPoolTest.testSingletonEagerInstantiation" />
-        <item itemvalue="JUnit.ConnectionPoolTest.testSingleton" />
-        <item itemvalue="JUnit.BirdTest" />
-        <item itemvalue="JUnit.PasswordEncoderTest.testStatic" />
-        <item itemvalue="JUnit.PasswordEncoderTest" />
+        <item itemvalue="JUnit.DatastoreTest.testBuilderWithNoType" />
+        <item itemvalue="JUnit.DatastoreTest" />
+        <item itemvalue="JUnit.DatastoreTest.testBuilder" />
+        <item itemvalue="JUnit.DatabaseTest.testHashMapConstructor" />
+        <item itemvalue="JUnit.DatabaseTest.testSetters" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +188,8 @@
       <workItem from="1671629725304" duration="361000" />
       <workItem from="1671630093363" duration="10019000" />
       <workItem from="1672148703901" duration="8072000" />
-      <workItem from="1673341999495" duration="3887000" />
+      <workItem from="1673341999495" duration="6784000" />
+      <workItem from="1673505408942" duration="6608000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>
