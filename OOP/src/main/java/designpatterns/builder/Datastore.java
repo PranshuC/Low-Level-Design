@@ -27,34 +27,34 @@ public class Datastore {
   public static class DatastoreBuilder {
 
     // Step 3 - Copy all fields from outer class
-    private String host;
-    private Integer port;
-    private String username;
-    private String password;
-    private Long id;
-    private DatabaseType type;
+    // Replace all fields (duplication) with instance of outer class itself
+    private Datastore instance;
+
+    DatastoreBuilder() {
+      this.instance = new Datastore();
+    }
 
     // Step 4 - Add fluent interfaces for setter
     public DatastoreBuilder withHost(String host) {
-      this.host = host;
+      instance.host = host;
       return this;
     }
     public DatastoreBuilder withPort(Integer port) {
-      this.port = port;
+      instance.port = port;
       return this;
     }
     // Customizable - Multiple fields in one method
     public DatastoreBuilder init(String host, Integer port) {
-      this.port = port;
+      instance.port = port;
       return this;
     }
     public DatastoreBuilder ofType(DatabaseType type) {
-      this.type = type;
+      instance.type = type;
       return this;
     }
     // Remove dependency from parameters : single-type methods
     public DatastoreBuilder mysql() {
-      this.type = DatabaseType.MY_SQL;
+      instance.type = DatabaseType.MY_SQL;
       return this;
     }
 
@@ -66,17 +66,18 @@ public class Datastore {
           throw new RuntimeException("Object not valid!");
 
       Datastore datastore = new Datastore();
-      datastore.host = host;
-      datastore.port = port;
-      datastore.username = username;
-      datastore.password = password;
-      datastore.id = id;
-      datastore.type = type;
+      datastore.host = instance.host;
+      datastore.port = instance.port;
+      datastore.username = instance.username;
+      datastore.password = instance.password;
+      datastore.id = instance.id;
+      datastore.type = instance.type;
+      // Here, deep copy could have helped directly put instance to datastore
       return datastore;
     }
 
     private boolean validate() {
-      if(type == null)
+      if(instance.type == null)
         return false;
       return true;
     }

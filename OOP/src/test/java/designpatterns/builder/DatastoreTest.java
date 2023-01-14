@@ -25,7 +25,7 @@ public class DatastoreTest {
         .mysql()
         .build();
     assertEquals("Host should match localhost", "localhost", datastore.getHost());
-    assertEquals("Database Type should match POSTGRES", DatabaseType.MONGO, datastore.getType());
+    assertEquals("Database Type should match MySQL", DatabaseType.MY_SQL, datastore.getType());
   }
 
   @Test(expected = RuntimeException.class)
