@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/prototype/BackgroundObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/prototype/BackgroundObjectType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/prototype/GraphicalObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/prototype/GraphicalObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/registry/BackgroundRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/registry/BackgroundObjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/builder/Datastore.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/builder/Datastore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/builder/DatastoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/builder/DatastoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +85,18 @@
       <recent name="$PROJECT_DIR$/OOP/src/main/java/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphicalObjectTest.testCloneObject">
-    <configuration name="DatabaseTest.testHashMapConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BackgroundObjectTest">
+    <configuration name="BackgroundObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.builder.*" />
+          <option name="PATTERN" value="designpatterns.registry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.builder" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatabaseTest" />
-      <option name="METHOD_NAME" value="testHashMapConstructor" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="designpatterns.registry" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.registry.BackgroundObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BackgroundObjectTest" />
         <item itemvalue="JUnit.GraphicalObjectTest.testCloneObject" />
         <item itemvalue="JUnit.DatastoreTest" />
         <item itemvalue="JUnit.DatastoreTest.testBuilderWithNoType" />
         <item itemvalue="JUnit.DatastoreTest.testBuilder" />
-        <item itemvalue="JUnit.DatabaseTest.testHashMapConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +187,7 @@
       <workItem from="1671630093363" duration="10019000" />
       <workItem from="1672148703901" duration="8072000" />
       <workItem from="1673341999495" duration="6784000" />
-      <workItem from="1673505408942" duration="11654000" />
+      <workItem from="1673505408942" duration="13401000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>
