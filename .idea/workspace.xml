@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/registry/BackgroundRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/registry/BackgroundObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/registry/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/registry/BackgroundObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/registry/BackgroundObjectTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +187,8 @@
       <workItem from="1671630093363" duration="10019000" />
       <workItem from="1672148703901" duration="8072000" />
       <workItem from="1673341999495" duration="6784000" />
-      <workItem from="1673505408942" duration="13401000" />
+      <workItem from="1673505408942" duration="14661000" />
+      <workItem from="1673845253753" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="Programming Language Paradigms">
       <created>1671355587183</created>
