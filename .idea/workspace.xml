@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/factories/DarkFormFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/factories/FormFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/factories/LightFormFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/DarkButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/DarkCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/LightButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/abstractfactory/models/LightCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/abstractfactory/FormFactoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/RazorPayProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/StripeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/RazorPayAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/RazorPayStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/StripeAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/StripeStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/intefaces/PaymentProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/models/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/models/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/adapter/PaymentProviderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/pranshuchakraborty/PROJECTS/LLD/Procedural",
+    "last_opened_file_path": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,17 +81,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpatterns.adapter.intefaces" />
+      <recent name="designpatterns.adapter.external" />
       <recent name="designpatterns.prototype" />
       <recent name="designpatterns.builder" />
       <recent name="SOLID" />
-      <recent name="rescaler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Procedural" />
       <recent name="$PROJECT_DIR$/OOP/src/main/java/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormFactoryTests">
+  <component name="RunManager" selected="JUnit.PaymentProviderTest">
     <configuration name="AbstractFactory" type="JUnit" factoryName="JUnit">
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
@@ -115,37 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatastoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.builder" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatastoreTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatastoreTest.testBuilderWithNoType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.builder" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.DatastoreTest" />
-      <option name="METHOD_NAME" value="testBuilderWithNoType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FormFactoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
@@ -161,17 +130,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphicalObjectTest.testCloneObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.prototype.*" />
+          <option name="PATTERN" value="designpatterns.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.prototype" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.prototype.GraphicalObjectTest" />
-      <option name="METHOD_NAME" value="testCloneObject" />
+      <option name="PACKAGE_NAME" value="designpatterns.adapter" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.adapter.PaymentProviderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProviderTest.testPayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.adapter" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.adapter.PaymentProviderTest" />
+      <option name="METHOD_NAME" value="testPayment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProviderTest.testStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.adapter" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.adapter.PaymentProviderTest" />
+      <option name="METHOD_NAME" value="testStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AbstractFactory" />
+      <item itemvalue="JUnit.PaymentProviderTest" />
+      <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
+      <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
       <item itemvalue="JUnit.FormFactoryTests" />
       <item itemvalue="JUnit.BackgroundObjectTest" />
-      <item itemvalue="JUnit.DatastoreTest" />
-      <item itemvalue="JUnit.DatastoreTest.testBuilderWithNoType" />
-      <item itemvalue="JUnit.GraphicalObjectTest.testCloneObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProviderTest" />
+        <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
+        <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
         <item itemvalue="JUnit.FormFactoryTests" />
         <item itemvalue="JUnit.BackgroundObjectTest" />
-        <item itemvalue="JUnit.GraphicalObjectTest.testCloneObject" />
-        <item itemvalue="JUnit.DatastoreTest" />
-        <item itemvalue="JUnit.DatastoreTest.testBuilderWithNoType" />
       </list>
     </recent_temporary>
   </component>
