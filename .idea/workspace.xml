@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/RazorPayProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/StripeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/RazorPayAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/RazorPayStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/StripeAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/external/StripeStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/intefaces/PaymentProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/models/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/adapter/models/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/adapter/PaymentProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/SimpleDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/extended/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/extended/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/implemented/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/implemented/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/interfaces/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/decorator/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design",
+    "last_opened_file_path": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design/OOP/src/main/java/designpatterns/decorator/extended",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,11 +85,18 @@
       <recent name="SOLID" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/extended" />
       <recent name="$PROJECT_DIR$/Procedural" />
       <recent name="$PROJECT_DIR$/OOP/src/main/java/basics" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="designpatterns.decorator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.decorator.extended" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentProviderTest">
+  <component name="RunManager" selected="JUnit.DatabaseTest">
     <configuration name="AbstractFactory" type="JUnit" factoryName="JUnit">
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
@@ -100,16 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackgroundObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.registry.*" />
+          <option name="PATTERN" value="designpatterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.registry" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.registry.BackgroundObjectTest" />
+      <option name="PACKAGE_NAME" value="designpatterns.decorator" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.decorator.DatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,19 +183,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AbstractFactory" />
+      <item itemvalue="JUnit.DatabaseTest" />
       <item itemvalue="JUnit.PaymentProviderTest" />
       <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
       <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
       <item itemvalue="JUnit.FormFactoryTests" />
-      <item itemvalue="JUnit.BackgroundObjectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.PaymentProviderTest" />
         <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
         <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
         <item itemvalue="JUnit.FormFactoryTests" />
-        <item itemvalue="JUnit.BackgroundObjectTest" />
       </list>
     </recent_temporary>
   </component>
