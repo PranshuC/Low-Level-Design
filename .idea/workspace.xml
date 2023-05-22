@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e7ad8c-b880-43ab-854e-93d4cfc2616b" name="Changes" comment="Programming Language Paradigms">
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/BaseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/SimpleDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/extended/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/extended/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/implemented/CompressionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/implemented/EncryptionDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/decorator/interfaces/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/decorator/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/observer/BitcoinTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/observer/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/observer/interfaces/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/observer/interfaces/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/observer/models/Bitcoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/strategy/BikeNavigationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/strategy/CarNavigationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/strategy/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/main/java/designpatterns/strategy/interfaces/NavigationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/observer/BitcoinTrackerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/src/test/java/designpatterns/strategy/NavigatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +66,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design/OOP/src/main/java/designpatterns/decorator/extended",
+    "last_directory_selection": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design/OOP/src/main/java/designpatterns/strategy",
+    "last_opened_file_path": "/Users/pranscha/Projects/LEARNING/SCALER/Low-Level-Design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,12 +97,28 @@
       <recent name="designpatterns.decorator" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="designpatterns.strategy" />
       <recent name="designpatterns.decorator.extended" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
+  <component name="RunManager" selected="JUnit.NavigatorTest">
     <configuration name="AbstractFactory" type="JUnit" factoryName="JUnit">
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitcoinTrackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpatterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="designpatterns.observer" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.observer.BitcoinTrackerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,16 +139,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormFactoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.abstractfactory.*" />
+          <option name="PATTERN" value="designpatterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.abstractfactory" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.abstractfactory.FormFactoryTests" />
+      <option name="PACKAGE_NAME" value="designpatterns.strategy" />
+      <option name="MAIN_CLASS_NAME" value="designpatterns.strategy.NavigatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,22 +165,6 @@
       <option name="PACKAGE_NAME" value="designpatterns.adapter" />
       <option name="MAIN_CLASS_NAME" value="designpatterns.adapter.PaymentProviderTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentProviderTest.testPayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designpatterns.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="designpatterns.adapter" />
-      <option name="MAIN_CLASS_NAME" value="designpatterns.adapter.PaymentProviderTest" />
-      <option name="METHOD_NAME" value="testPayment" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,19 +187,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AbstractFactory" />
+      <item itemvalue="JUnit.BitcoinTrackerTest" />
+      <item itemvalue="JUnit.NavigatorTest" />
       <item itemvalue="JUnit.DatabaseTest" />
       <item itemvalue="JUnit.PaymentProviderTest" />
-      <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
       <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
-      <item itemvalue="JUnit.FormFactoryTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavigatorTest" />
+        <item itemvalue="JUnit.BitcoinTrackerTest" />
         <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.PaymentProviderTest" />
         <item itemvalue="JUnit.PaymentProviderTest.testStatus" />
-        <item itemvalue="JUnit.PaymentProviderTest.testPayment" />
-        <item itemvalue="JUnit.FormFactoryTests" />
       </list>
     </recent_temporary>
   </component>
